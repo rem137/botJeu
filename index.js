@@ -4,7 +4,7 @@ client.on('message', msg => {
   if (msg.content.includes("initial")) {
     msg.channel.send('message 1').then((message)=> {
       setTimeout(function() {
-                 message.edit('message 2');
+                 message.edit('message deux');
     }, 1000)
   });
   }
